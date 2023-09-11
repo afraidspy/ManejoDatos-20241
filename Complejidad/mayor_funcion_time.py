@@ -16,7 +16,7 @@ class Algoritmos:
         return mayorsito 
 
 
-if name == "__main__":
+if __name__ == "__main__":
     algo =  Algoritmos()
 
     tiempo_inicio = time.time()

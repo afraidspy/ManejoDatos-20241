@@ -1,6 +1,6 @@
-# Curso de Manejo de Datos
+# Curso de Manejo de Datos 2024-1
 
-Este repositorio contiene los códigos y recursos utilizados en el curso de Manejo de Datos. En este curso, aprenderás las habilidades necesarias para manipular, analizar y visualizar datos de manera efectiva.
+Este repositorio contiene los códigos y recursos utilizados en el curso de Manejo de Datos. En este curso, aprenderás las habilidades necesarias para manipular, analizar datos de manera efectiva.
 
 ## Contenido
 
@@ -12,8 +12,7 @@ El repositorio está organizado en carpetas, cada una correspondiente a una secc
 
 ## Requisitos
 
-Para ejecutar los códigos en este repositorio, necesitarás tener instalado una versión superior a Python 3.8 y las bibliotecas mencionadas en los archivos de requisitos (por ejemplo, `requirements.txt`).
-
+Para ejecutar los códigos en este repositorio, necesitarás tener instalado una versión superior a Python 3.8.
 
 ## Contribución
 

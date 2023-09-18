@@ -10,17 +10,16 @@ class Insercion(OrdenableIterativoAbstractClass):
     
     def ordenar(self,elementos):
        print(elementos)
-       print("Empezando el algoritmo..")
+       print("Empezando el algoritmo de Inserción..")
  
        for i in range(1,len(elementos)):
            aux = elementos[i]
-           no_ordenado = False
-           if (not no_ordenado):
-               for j in range(i-1, -1,-1):
-                   #print("\ni={}j={} ".format( i,j))
-                   if (elementos[j]>aux):
-                      no_ordenado = True
-                      # elementos[j+1] = elementos[j]
-                      # elementos[j] = aux
-                      # print(elementos)
+           print('\nIteracion: ' , i)
+           for j in range(i-1, -1,-1):
+               #print("\ni={}j={} ".format( i,j))
+               if (elementos[j]>aux):
+                   # elementos[j+1] = elementos[j]
+                   # elementos[j] = aux
+                   # print(elementos)
                       self.intercambiar(elementos, j, j+1)
+               print(j,"->",elementos)

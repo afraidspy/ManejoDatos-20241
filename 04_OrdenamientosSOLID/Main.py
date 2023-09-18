@@ -3,6 +3,7 @@ import time
 from Burbuja import Burbuja
 from BurbujaMejorado import BurbujaMejorado
 from Seleccion import Seleccion
+from Insercion import Insercion
 
 
 def generar_aleatorios():
@@ -39,3 +40,11 @@ if __name__ == '__main__':
         seleccion.ordenar(data)
         tiempo_fin = time.time()-tiempo_inicio
         print("\nTiempo para seleccion: ", tiempo_fin)
+        
+        print("\nInsercón...")
+        data = [1,7,11,2,0,5,10,3,4]
+        insercion = Insercion()
+        tiempo_inicio = time.time()
+        insercion.ordenar(data)
+        tiempo_fin = time.time()-tiempo_inicio
+        print("\nTiempo para inserción: ", tiempo_fin)

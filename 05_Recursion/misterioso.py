@@ -18,3 +18,5 @@ if __name__ == "__main__":
     k = int(input("Ingrese el valor de k: "))
     result = misterioso(n, k)
     print("Resultado:", result)
+
+

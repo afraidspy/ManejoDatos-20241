@@ -18,13 +18,13 @@ if __name__ == '__main__':
         tiempo_fin = time.time()-tiempo_inicio
         print("Tiempo para quicksort: ", tiempo_fin)
        
-        '''
-            print("Mergesort...")
-            data = [12,5,20,8,9]
-            merge = Mergesort()
-            tiempo_inicio = time.time()
-            lista=merge.ordenar(data);
-            tiempo_fin = time.time()-tiempo_inicio
-            print("Tiempo para merget: ", tiempo_fin)
-            print(lista)
-        '''
+        
+        print("Mergesort...")
+        data = [12,5,20,8,9]
+        merge = Mergesort()
+        tiempo_inicio = time.time()
+        lista=merge.ordenar(data);
+        tiempo_fin = time.time()-tiempo_inicio
+        print("Tiempo para merget: ", tiempo_fin)
+        print(lista)
+    

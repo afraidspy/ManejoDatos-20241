@@ -27,7 +27,7 @@ class EncolableAbstract:
     def primer_elemento():
         pass
     @abstractmethod
-    def eliminar(eliminar):
+    def eliminar():
         pass
     @abstractmethod
     def imprimir():

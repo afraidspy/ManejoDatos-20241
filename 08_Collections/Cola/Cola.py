@@ -5,11 +5,11 @@ Created on Mon Oct 23 07:32:06 2023
 @author: guest
 """
 
-from Encolable import ColaAbstract
+from Encolable import EncolableAbstract
 from Nodo import Nodo
 
         
-class ColaClass(ColaAbstract):
+class ColaClass(EncolableAbstract):
     
     def __init__(self):
         self.inicio =  None
@@ -17,7 +17,7 @@ class ColaClass(ColaAbstract):
         self.cuantos = 0
     
     def esta_vacia(self):
-        return self.cuanto == 0
+        return self.cuantos == 0
     
     def vaciar(self):
         self.cuantos = 0

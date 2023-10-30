@@ -15,6 +15,7 @@ class ABB(ArbolBuscable):
     def vaciar(self):
         self.raiz = None
         self.cuantos = 0
+        
    
     def tamanio(self):
         return self.cuantos
